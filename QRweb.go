@@ -1,4 +1,5 @@
 //demo web
+//mac
 package main
 
 import (
@@ -8,7 +9,7 @@ import (
 	"net/http"
 )
 
-var addr = flag.String("addr", ":1718", "http service addr") //
+var addr = flag.String("addr", ":8080", "http service addr") //
 
 var templ = template.Must(template.New("qr").Parse(templateStr))
 
